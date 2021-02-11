@@ -7,4 +7,4 @@ def home(request):
       return HttpResponse("<h1 style = 'color: red'>Hello....<h1>")
 
 def profile(request):
-      return HttpRe
+      return HttpResponse("My profile page....")
